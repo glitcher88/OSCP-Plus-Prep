@@ -1,6 +1,6 @@
 # OSCP-Plus-Prep
 
-## Simple File Transfer Server
+##  File Transfer Server
 
 This is a lightweight Python HTTP server designed for quick and easy file transfers between machines. It is particularly useful in penetration testing scenarios, such as the OSCP+ exam, where transferring files between an attacker's machine and a compromised target is necessary.
 
@@ -20,12 +20,12 @@ This is a lightweight Python HTTP server designed for quick and easy file transf
 To start the server, run the following command on your attacker machine:
 
 ```bash
-python3 simple_server.py
+python3 _server.py
 ```
 or specify a custom port:
 
 ```bash
-python3 simple_server.py 8080
+python3 _server.py 8080
 ```
 
 By default, the server runs on port `80`, but you can specify any available port, such as `8080`.
