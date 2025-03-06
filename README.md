@@ -20,12 +20,12 @@ This is a lightweight Python HTTP server designed for quick and easy file transf
 To start the server, run the following command on your attacker machine:
 
 ```bash
-python3 _server.py
+python3 server.py
 ```
 or specify a custom port:
 
 ```bash
-python3 _server.py 8080
+python3 server.py 8080
 ```
 
 By default, the server runs on port `80`, but you can specify any available port, such as `8080`.
